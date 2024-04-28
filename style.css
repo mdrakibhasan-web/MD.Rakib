@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./182428240217.jpg);
+    background-size: cover;
+    
+  }
+form{
+    background-color:transparent;
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    border:2px solid white;
+    border-radius: ;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 20px;
+  opacity: 0.6;
+}
+form:hover{
+    opacity: 1.0;
+}
+h2{
+    display: inline-block;
+    width: 180px;
+    margin-top: 70px;
+    
+   
+}
+.home:hover{
+color:yellow;
+border-bottom:4px solid white;
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin-left: 80px;
+}
+label{
+   color: white;
+   font-size: 22px;
+   font-weight: 800;
+   margin-left: 10px;
+  
+}
+input{
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    border-radius:5px;
+    margin-top:30px ;
+    padding: 5px;
+    }
+
+    .name{
+        margin-right: 40px;
+        margin-left: px;
+        margin-top: 
+    }
+    .pass{
+        margin-top: ;
+        margin-right: 5px;
+    }
+    button{
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 350px;
+        background-color: blue;
+        color: white;
+       
+
+    }
+    button:hover{
+        background-color: white;
+        color:black;
+        border-bottom: 2px solid yellowgreen;
+    }
+    .fpass{
+        font-size: 18px;
+        margin-left: 300px;
+        margin-top: ;
+    }
+    .fpass:hover{
+        color:yellowgreen;
+    }
+    
+   
+    @media only screen and (max-width: 1000px) {
+        body {
+          background-image: url(./182428240217.jpg);
+          background-size: cover;
+        }
+        form{
+            width:100%;
+            height: 100%;
+            margin-top: 40%;
+            margin-left: 0px;
+            display: block;
+            opacity:0.5;
+        }
+        form.hover{
+            opacity:1.0;
+        }
+        label{
+            display: block;
+            margin-top: 30px;
+        }
+
+      }
